@@ -41,3 +41,5 @@ form.addEventListener("submit", (e) => {
 function validateEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+// commit test 
