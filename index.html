@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Olga</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>i like food and video games</h2>
+    <p>hello my name is olga.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Project 1</h3>
+        <button class="toggle-btn">Show Details</button>
+        <div class="project-details hidden">
+            <p>This is my first project.</p>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Project 2</h3>
+        <button class="toggle-btn">Show Details</button>
+        <div class="project-details hidden">
+            <p>This is my second project.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+
+        <p id="error-msg"></p>
+    </form>
+</section>
+
+<footer>
+    <p>© Olga 2026</p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
